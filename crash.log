@@ -1,0 +1,10 @@
+2022-11-22 07:14:23.659033
+Traceback (most recent call last):
+  File "I:\03_SD\sd-tagging-helper\helper.py", line 194, in load
+    self.tags = dd.project.load_tags_from_project(model_path)
+  File "I:\03_SD/stable-diffusion-my-A1111\venv\lib\site-packages\deepdanbooru\project\project.py", line 52, in load_tags_from_project
+    return dd.data.load_tags(tags_path)
+  File "I:\03_SD/stable-diffusion-my-A1111\venv\lib\site-packages\deepdanbooru\data\dataset.py", line 6, in load_tags
+    with open(tags_path, "r") as tags_stream:
+FileNotFoundError: [Errno 2] No such file or directory: 'I:\\03_SD\\stable-diffusion-my-A1111\\models\\deepbooru\\tags.txt'
+
